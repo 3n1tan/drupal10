@@ -1,0 +1,22 @@
+uuid: a101d58e-739b-4097-b632-13d22e39db1e
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - react_app
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: react_app_help
+theme: react_app
+region: header
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

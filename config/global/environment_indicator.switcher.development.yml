@@ -1,0 +1,11 @@
+uuid: 331a8f17-60a3-4a8a-809f-f2fbd28abc43
+langcode: en
+status: true
+dependencies: {  }
+machine: development
+description: null
+name: Development
+weight: ''
+url: 'https://www.google.com/'
+fg_color: '#f4f0f0'
+bg_color: '#2fdf0c'

@@ -1,0 +1,22 @@
+uuid: 34b8b834-36a2-42a6-aa3d-dc2897246f36
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - react_app
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: react_app_content
+theme: react_app
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

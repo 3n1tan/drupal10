@@ -1,0 +1,25 @@
+uuid: 16a51ad8-93ec-492d-a036-7b50b884e5ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - bootstrap
+id: footer
+theme: bootstrap
+region: footer
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Designed by Enitan Odupitan 2023.'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

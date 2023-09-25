@@ -1,0 +1,22 @@
+uuid: 7584502e-e2b1-4523-8c0e-2e32337f6ae0
+langcode: en
+status: true
+dependencies:
+  theme:
+    - react_app
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: react_app_local_tasks
+theme: react_app
+region: header
+weight: 10
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

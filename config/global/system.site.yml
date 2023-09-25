@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 1f07f998-2e80-4f11-9b51-77e5334e12c5
+name: '3N1T technologies'
+mail: admin@example.com
+slogan: 'Drupal is awesome platform with enitan'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

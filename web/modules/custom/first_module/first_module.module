@@ -1,0 +1,39 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+ /**
+* Implements hooks_form_alter().
+*/
+
+function first_module_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id){
+    if ($form_idn= 'edit-name') {
+        $form['#title'] = t('Login with ice-cream');
+        $form['name']['#title'] = t('email_address');
+    }
+
+}
+
+ /**
+* Implements hooks_preprocess_page().
+*/
+
+function first_module_preprocess_page(&$variables){
+    return (
+        $variables['first_module_variable'] = 'My first D10 module'      
+    );
+}
+
+ /**
+* Implements hooks_help().
+*/
+
+function first_module_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.first_module':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('This is my first custom module for help section.') . '</p>';
+      return $output;
+    default:
+  }
+}

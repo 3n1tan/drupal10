@@ -1,0 +1,25 @@
+uuid: d6202253-d0c8-410b-9f27-4c0e78c92c8d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - icecream_theme
+id: icecream_theme_footer
+theme: icecream_theme
+region: footer
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Designed by Enitan Odupitan 2023.'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

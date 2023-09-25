@@ -1,0 +1,23 @@
+uuid: d41bed0c-3356-4993-98f6-f4f7d506028a
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - react_app
+_core:
+  default_config_hash: F3d5hyAFunLh4PhGviJF019fHn1Z3_zy5gzsQ0tX1K0
+id: react_app_search
+theme: react_app
+region: header
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: ''
+visibility: {  }

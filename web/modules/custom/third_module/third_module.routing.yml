@@ -1,0 +1,7 @@
+third_module.page:
+  path: /third
+  defaults:
+    _controller: '\Drupal\third_module\Controller\ThirdController::third'
+    _title: "Third Module"
+  requirements:
+    _permission: 'access content'

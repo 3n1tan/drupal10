@@ -1,0 +1,9 @@
+name: React Group One
+description: Just a simple getting started custom theme
+type: theme
+base theme: bartik
+version: 1.0.0
+core_version_requirement: ^9 || ^10
+libraries:
+  - react_team1/react_app
+

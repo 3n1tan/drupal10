@@ -1,0 +1,11 @@
+uuid: cfe3b8f6-c9a0-4e87-8de8-1ddecf4f998f
+langcode: en
+status: true
+dependencies: {  }
+machine: production
+description: null
+name: Production
+weight: ''
+url: 'https://en.bc.fi/'
+fg_color: '#efeee6'
+bg_color: '#e01059'
